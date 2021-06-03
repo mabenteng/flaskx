@@ -1,9 +1,14 @@
 ## Flask拆分为简单迷你的MTV模式
 
+一个简单的MVC模型迷你框架,在python中也称为MTV
+
+
+
 依赖的库有:
+- flask==1.1.2
 - flask_script
 - flask_sqlalchemy
-- flask_migrate
+- flask_migrate==2.5.3
 
 
 ## 文件目录结构
@@ -41,3 +46,4 @@ python manage.py db upgrade # 更新数据库并记录版本信息
 首页: http://127.0.0.1:5000
 
 其他测试路径在app/views/first.py文件中
+
